@@ -80,4 +80,4 @@ Below is a preview of the churn analysis dashboard:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/churn-customers-analysis.git
+    https://github.com/aym-n-omran/churn-analysis-with-excel
