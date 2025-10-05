@@ -1,63 +1,82 @@
-# 📊 Telecom Customer Churn Dashboard
+# 📊 Churn Customers Analysis Dashboard
 
-![Churn Dashboard](./Churn%20Dash%20board.png)
-
-## 📘 Overview
-
-This project provides an interactive **Customer Churn Dashboard** built using Excel  tools and data visualization techniques.  
-It helps analyze customer churn patterns, key metrics, and insights to understand why customers are leaving and where improvements can be made.
+This project presents an interactive **Customer Churn Analysis Dashboard** that visualizes key performance metrics, churn causes, and demographic trends to help businesses understand and reduce customer churn.
 
 ---
 
-## 🚀 Key Metrics
+## 🖼️ Dashboard Preview
 
-| Metric | Value | Description |
-|--------|--------|-------------|
-| **Total Customers** | 6,687 | Total active and churned customers analyzed |
-| **Total Churn** | 1,796 | Number of customers who left |
-| **Churn Rate** | 26.86% | Percentage of customers who churned |
-| **Average Monthly Charge** | \$31.03 | Average billing per user per month |
-| **ARPU (Average Revenue Per User)** | \$1,084 | Average revenue generated per customer annually |
+### 📷 Screenshot
+
+Below is a preview of the churn analysis dashboard:
+
+![Churn Dashboard Preview](./Churn%20Dash%20board%20.png)
 
 ---
 
-## 🧠 Insights Summary
+## 📈 Key Performance Indicators (KPIs)
 
-- **Main Churn Reasons:**  
-  Competitors offering better deals (51%), poor support attitude (18%), dissatisfaction (18%), and price (12%).
-- **Demographics:**  
-  Majority of churners are under 30 (57%) followed by senior customers (26%).
-- **Churn by Age:**  
-  Higher churn rate among younger customers (19–28 age group).
-- **Account Length:**  
-  Customers with shorter account lengths (1–10 months) have the highest churn rate (49%).
-- **Contract Type:**  
-  Month-to-month users show the highest churn risk.
-- **State Analysis:**  
-  Top churn states include **CA (63%)**, **OH (35%)**, and **PA (33%)**.
+| Metric | Description |
+|--------|--------------|
+| **Total Customers** | 6,687 |
+| **Total Churn** | 1,796 |
+| **Churn Rate** | 26.86% |
+| **Average Monthly Charge** | \$31.03 |
+| **ARPU (Average Revenue Per User)** | \$1,084 |
 
 ---
 
-## 🗺️ Dashboard Features
+## 🔍 Analytical Insights
 
-- Interactive slicers for:
-  - **Churn Category**
-  - **Gender**
-  - **Contract Type**
-  - **Average Monthly GB Download**
-- Geographic heatmap to visualize churn intensity by **state**.
-- Dynamic KPIs showing **churn trends**, **demographics**, and **subscription duration** effects.
+### 💡 Churn Reasons
+- **51.0%** left due to **competitor offers**
+- **18.3%** due to **attitude of support**
+- **14.9%** from **dissatisfaction**
+- **12.6%** due to **pricing issues**
+
+### 👥 Demographic Insights
+- **Under 30:** 57.4%  
+- **Senior:** 26.1%  
+- **Other:** 16.5%
+
+### ⏱️ Account Tenure
+
+| Tenure (Months) | Churn Rate |
+|-----------------|-------------|
+| 1–10 | 49% |
+| 11–20 | 33% |
+| 21–30 | 24% |
+| 31–40 | 22% |
+| 41–50 | 18% |
+| 51–60 | 14% |
+| 61–70 | 9% |
+
+➡️ Churn is **highest** for new customers (first 10 months) and **lowest** for long-term customers.
 
 ---
 
-## 🛠️ Tools & Technologies
+### 🌍 Geographic Insights
 
-- **Microsoft Excel / Power BI**
-- **Pivot Charts & Slicers**
-- **Conditional Formatting**
-- **Data Modeling & Visualization**
+| State | Churned Customers | Churn Rate |
+|--------|------------------|-------------|
+| CA | 57 | 63% |
+| OH | 55 | 35% |
+| OR | 48 | 33% |
+| MD | 46 | 33% |
+| AL | 46 | 31% |
 
 ---
 
-## 📂 Project Structure
+## 🧰 Tools and Technologies
 
+- **Power BI / Excel** – Dashboard creation and visualization  
+- **Microsoft Bing Maps** – Geospatial churn visualization  
+- **Dataset** – Customer churn data (CSV/Excel)
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/churn-customers-analysis.git
