@@ -10,7 +10,8 @@ This project presents an interactive **Customer Churn Analysis Dashboard** that 
 
 Below is a preview of the churn analysis dashboard:
 
-![Churn Dashboard Preview](./Churn%20Dash%20board%20.png)
+![Churn Dashboard Preview]<img width="1165" height="728" alt="image" src="https://github.com/user-attachments/assets/a4e59b41-1486-4320-8bde-e177568b90b2" />
+
 
 ---
 
