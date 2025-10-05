@@ -1,6 +1,6 @@
 # 📊 Databel Customer Churn Dashboard
 
-![Churn Dashboard Overview](churn case/Churn Dash board.png)
+![Churn Dashboard Overview]churn case/Churn Dash board.png
 
 ## 🧩 Project Overview
 This project analyzes **customer churn data** for Databel Telecom, focusing on identifying key factors that influence customer attrition.  
